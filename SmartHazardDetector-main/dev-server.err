@@ -1,0 +1,42 @@
+[Server] Elevation API fetch error: TypeError: fetch failed
+    at async POST (app\api\elevation\route.ts:36:22)
+  34 |     const url = `https://maps.googleapis.com/maps/api/elevation/json?locations=${locations}&key=${elevationApiKey}`
+  35 |
+> 36 |     const response = await fetch(url)
+     |                      ^
+  37 |     const data = await response.json()
+  38 |
+  39 |     if (data.status === "OK") { {
+  [cause]: AggregateError: 
+      at ignore-listed frames {
+    code: 'EACCES'
+  }
+}
+[Server] Elevation API fetch error: TypeError: fetch failed
+    at async POST (app\api\elevation\route.ts:36:22)
+  34 |     const url = `https://maps.googleapis.com/maps/api/elevation/json?locations=${locations}&key=${elevationApiKey}`
+  35 |
+> 36 |     const response = await fetch(url)
+     |                      ^
+  37 |     const data = await response.json()
+  38 |
+  39 |     if (data.status === "OK") { {
+  [cause]: AggregateError: 
+      at ignore-listed frames {
+    code: 'EACCES'
+  }
+}
+[Server] Elevation API fetch error: TypeError: fetch failed
+    at async POST (app\api\elevation\route.ts:36:22)
+  34 |     const url = `https://maps.googleapis.com/maps/api/elevation/json?locations=${locations}&key=${elevationApiKey}`
+  35 |
+> 36 |     const response = await fetch(url)
+     |                      ^
+  37 |     const data = await response.json()
+  38 |
+  39 |     if (data.status === "OK") { {
+  [cause]: AggregateError: 
+      at ignore-listed frames {
+    code: 'EACCES'
+  }
+}
